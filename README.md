@@ -1,1 +1,3 @@
-Projeto que lista os Planetas de StarWars.
+Um to-do simples, mas prático.
+
+Como tudo... tudo começa pelo simples.
