@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import background from './assets/background.jpeg'
 
 export default createGlobalStyle`
     *{
@@ -7,6 +8,11 @@ export default createGlobalStyle`
         padding: 0;
         outline: 0;
         box-sizing: border-box;
+    }
+
+    body {
+        background: url(${background}) no-repeat;
+        background-size: cover;
     }
     
     h1 {

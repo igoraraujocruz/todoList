@@ -5,10 +5,20 @@ export const TodoStyle = styled.div`
     text-align: center;
 
     .edit-icon {
-        margin-left: 20px;
+        margin-left: 250px;
     }
 
     .delete-icon {
         margin-left: 5px;
+    }
+
+    .data {
+        font-size: 13px;
+    }
+
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
     }
 `;

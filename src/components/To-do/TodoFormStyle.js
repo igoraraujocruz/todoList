@@ -14,15 +14,17 @@ export const TodoFormStyle = styled.div`
     button {
         border: none;
         color: #fff;
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 30px;
         background-color: #2196f3;
         opacity: 0.8;
         transition: 0.7s;
+        padding: 8px 0 0;
 
         &:hover {
         opacity: 1;
         }
     }
+
     
 `;

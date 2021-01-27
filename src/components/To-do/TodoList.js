@@ -28,22 +28,11 @@ const TodoList = () => {
         );
     };
 
-    const completeTodo = id => {
-        const updatedTodos = todos.map(todo => {
-            if (todo.id === id) {
-                todo.isComplete = !todo.isComplete;
-            }
-            return todo;
-        });
-
-        setTodos(updatedTodos)
-    }
-
     return (
         <>
-            <h1>Quais os planos pra hoje?</h1>
+            <h1>what are the plans for today?</h1>
             <TodoForm onSubmit={addTodo} />
-            <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo} />
+            <Todo todos={todos} removeTodo={removeTodo} updateTodo={updateTodo} />
         </>
     );
 };

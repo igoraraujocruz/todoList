@@ -5,11 +5,16 @@ const TodoForm = (props) => {
     const [todoForm, setTodoForm] = useState('');
 
     const handleSubmit = e => {
+
+        const data = new Date()
+        const dataNow = data.toLocaleTimeString('pt-BR');
+
         e.preventDefault();
 
         props.onSubmit({
             id: Math.floor(Math.random() * 1000),
-            text: todoForm
+            text: todoForm,
+            date: dataNow
         });
 
         setTodoForm('');
@@ -24,7 +29,7 @@ const TodoForm = (props) => {
             <TodoFormStyle>
                 <form onSubmit={handleSubmit}>
                     <input type="text" value={todoForm} onChange={handleChange} />
-                    <button>Enviar</button>
+                    <button>Send</button>
                 </form>
             </TodoFormStyle>
         </>
