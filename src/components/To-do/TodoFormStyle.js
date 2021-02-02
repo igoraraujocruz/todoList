@@ -20,6 +20,7 @@ export const TodoFormStyle = styled.div`
         opacity: 0.8;
         transition: 0.7s;
         padding: 8px 0 0;
+        cursor: pointer;
 
         &:hover {
         opacity: 1;

@@ -30,7 +30,7 @@ const TodoList = () => {
 
     return (
         <>
-            <h1>what are the plans for today?</h1>
+            <h1>What are the plans for today?</h1>
             <TodoForm onSubmit={addTodo} />
             <Todo todos={todos} removeTodo={removeTodo} updateTodo={updateTodo} />
         </>

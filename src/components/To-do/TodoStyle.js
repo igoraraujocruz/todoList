@@ -6,10 +6,12 @@ export const TodoStyle = styled.div`
 
     .edit-icon {
         margin-left: 250px;
+        cursor: pointer;
     }
 
     .delete-icon {
         margin-left: 5px;
+        cursor: pointer;
     }
 
     .data {
@@ -19,6 +21,5 @@ export const TodoStyle = styled.div`
     button {
         background: none;
         border: none;
-        cursor: pointer;
     }
 `;
