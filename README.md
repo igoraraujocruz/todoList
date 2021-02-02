@@ -86,7 +86,7 @@ go to http://localhost:3000
 
 ## 📝 License
 
-This project is under a license [MIT License](./LICENSE)
+This project is under a license [MIT License](./LICENSE.md)
 </br></br></br>
 
 
