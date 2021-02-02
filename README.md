@@ -3,7 +3,7 @@
 Record your daily tasks, edit and delete them.</p>
 
 
-<img src="https://img.shields.io/github/issues/igoraraujocruz/todoList" /> <img src="https://img.shields.io/github/forks/igoraraujocruz/todoList" /> <img src="https://img.shields.io/github/stars/igoraraujocruz/todoList" />
+<img src="https://img.shields.io/github/issues/igoraraujocruz/todoList" /> <img src="https://img.shields.io/github/forks/igoraraujocruz/todoList" /> <img src="https://img.shields.io/github/stars/igoraraujocruz/todoList" /> <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen" />
 
 </br>
 
